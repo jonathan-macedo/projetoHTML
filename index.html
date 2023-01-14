@@ -1,28 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+    <title>Bar do Homer</title>
 </head>
+
 <body>
     <header>
-        <h1>HomerBar</h1>
-        <ul>
-            <li><a href="#image">Imagens</a></li>
-            <li><a href="#content">Conteúdo</a></li>
-            <li><a href="#maps">Publicidade</a></li>
-        </ul>
-    </header>
-    <main>
-        <section id="image">
+        <div id="container-header">
+            <h1>HomerBar</h1>
+            <ul>
+                <li><a href="#image">Imagens</a></li>
+                <li><a href="#content">Conteúdo</a></li>
+                <li><a href="#maps">Publicidade</a></li>
+            </ul>
+        </div>
+        <section id="header">
             <div id="text">
                 <h1>Teste de consulta</h1>
                 <p>Outros teste para parágrafo</p>
             </div>
             <img src="" alt="Foto de algo aqui">
+        </section>
+    </header>
+    <main>
+        <section id="image">
+            <img src="" alt="Algo aqui"><img src="" alt="Outra coisa aqui"><img src=""
+                alt="Outra coisa que vai ter aqui">
         </section>
         <section id="content">
             <div class="box-info"></div>
@@ -35,7 +43,8 @@
         <section id="maps">
             <aside id="map"></aside>
             <aside id="search-cep">
-                <h1>Procure no mapa muito mais rápido! Informe o seu CEP para encontrar novas lojas próximas da sua localização</h1>
+                <h1>Procure no mapa muito mais rápido! Informe o seu CEP para encontrar novas lojas próximas da sua
+                    localização</h1>
                 <input type="text" name="cep" id="cep">
                 <button>Procurar</button>
             </aside>
@@ -43,4 +52,5 @@
     </main>
     <footer></footer>
 </body>
+
 </html>
