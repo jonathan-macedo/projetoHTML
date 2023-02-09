@@ -18,9 +18,26 @@ header h1 {
   margin-bottom: 1rem;
   margin-left: 1rem;
 }
+#content .box-info h2 {
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 1rem;
+  padding-top: 0.5rem;
+}
 #content .box-info img {
-  width: 250px;
-  height: 250px;
+  width: 220px;
+  height: 220px;
+  margin-left: 5rem;
+  border-radius: 10px;
+}
+#content .box-info .price-text {
+  margin-left: 0.6rem;
+}
+#content .box-info .short-text {
+  text-align: center;
+}
+#content .box-info .price-text {
+  padding-top: 1.6rem;
 }
 
 footer {
@@ -28,7 +45,8 @@ footer {
   text-align: center;
 }
 footer p {
-  padding: 1.2rem;
+  padding: 1rem;
+  font-size: 12px;
 }
 
 * {
